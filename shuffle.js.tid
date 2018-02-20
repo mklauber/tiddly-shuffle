@@ -22,7 +22,7 @@ type: application/javascript
 
     var shuffle = function(array, seed) {
       var currentIndex = array.length, temporaryValue, randomIndex ;
-     Math.randomseed(seed)
+     Math.seedrandom(seed)
 
       // While there remain elements to shuffle...
       while (0 !== currentIndex) {
