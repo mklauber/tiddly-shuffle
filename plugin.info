@@ -1,6 +1,6 @@
 {
     "title": "$:/plugins/mklauber/shuffle",
-    "description": "A Shuffle filter operator that uses a parameter to create a reproducable random sorting.",
+    "description": "A Shuffle filter operator",
     "author": "Matthew Lauber",
     "version": "1.0.0",
     "core-version": ">=5.0.0",
