@@ -6,6 +6,7 @@ title: $:/plugins/mklauber/shuffle/startup.js
 type: application/javascript
 
 exports.name = "shuffle"
+exports.before = ["render"]
 exports.startup = function() {
   $tw.modules.execute('$:/plugins/mklauber/shuffle/seedrandom.js');
 }
