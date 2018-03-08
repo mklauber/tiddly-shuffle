@@ -1,10 +1,11 @@
 created: 20180220133753576
 modified: 20180220133920300
 module-type: startup
-tags: 
+tags:
 title: $:/plugins/mklauber/shuffle/startup.js
 type: application/javascript
 
+exports.name = "shuffle"
 exports.startup = function() {
   $tw.modules.execute('$:/plugins/mklauber/shuffle/seedrandom.js');
 }
