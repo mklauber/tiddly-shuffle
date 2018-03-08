@@ -2,7 +2,7 @@
     "title": "$:/plugins/mklauber/shuffle",
     "description": "A Shuffle filter operator",
     "author": "Matthew Lauber",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "core-version": ">=5.0.0",
     "plugin-type": "plugin",
 	"list": ""
